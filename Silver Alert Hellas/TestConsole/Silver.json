@@ -1,0 +1,202 @@
+﻿[
+    {
+        "id": 1,
+        "category": 0,
+        "place": {
+            "id": 838,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΓΡΗΓΟΡΗΣ",
+            "en": "GRIGORIS"
+        },
+        "surname": {
+            "el": "ΦΙΛΗΣ",
+            "en": "FILIS"
+        },
+        "age": 80,
+        "missingSince": "2011-03-01",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 167,
+        "weight": 65,
+        "bodyType": {
+            "el": null,
+            "en": null
+        },
+        "images": "30.jpg",
+        "clothes": {
+            "el": "Φοράει γκρι φανέλα, μπλε σκούρο μπουφάν, γκρι πανελόνι, τραγιάσκα και καφέ παπούτσια. Πάσχει από Γεροντική Άνοια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 2,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΠΑΡΑΣΚΕΥΑΣ",
+            "en": "PARASKEVAS"
+        },
+        "surname": {
+            "el": "ΠΟΛΙΤΗΣ",
+            "en": "POLITIS"
+        },
+        "age": 76,
+        "missingSince": "2011-05-01",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 165,
+        "weight": 60,
+        "bodyType": {
+            "el": null,
+            "en": null
+        },
+        "images": "29.jpg",
+        "clothes": {
+            "el": "Φοράει γκρι παντελόνι, γκρι πουκάμισο με μαύρες ρίγες, πουλόβες, μαύρο τζόκεϊ. Πάσχει από Άνοια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 3,
+        "category": 0,
+        "place": {
+            "id": 514,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΣΟΦΙΑ",
+            "en": "SOFIA"
+        },
+        "surname": {
+            "el": "ΣΜΠΙΤΑ",
+            "en": "SMPITA"
+        },
+        "age": 69,
+        "missingSince": "2011-05-06",
+        "eyes": {
+            "el": "ΓΑΛΑΝΑ",
+            "en": "BLUE"
+        },
+        "height": 160,
+        "weight": 75,
+        "bodyType": {
+            "el": null,
+            "en": null
+        },
+        "images": "28.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρη φούστα, σκουρόχρωμη ζακέτα και μπλε σκούρο μαντήλι στο κεφάλι με πορτοκαλί λουλούδια. Πάσχει από σακχαρώδη διαβήτη και άσθμα.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 4,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΕΥΑΓΓΕΛΟΣ",
+            "en": "EVANGELOS"
+        },
+        "surname": {
+            "el": "ΡΕΒΙΔΗΣ",
+            "en": "REVIDIS"
+        },
+        "age": 65,
+        "missingSince": "2011-02-25",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 175,
+        "weight": 55,
+        "bodyType": {
+            "el": null,
+            "en": null
+        },
+        "images": "31.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε σκούρο μπλε παντελόνι, πράσινο πουλόβερ, καφέ πουκάμισο, σακάκι μπεζ-καφέ, μαύρα παπούτσια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 5,
+        "category": 0,
+        "place": {
+            "id": 372,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΚΥΡΙΑΚΟΣ",
+            "en": "KYRIAKOS"
+        },
+        "surname": {
+            "el": "ΚΑΡΑΝΔΡΕΑΣ",
+            "en": "KARANDREAS"
+        },
+        "age": 79,
+        "missingSince": "2011-07-28",
+        "eyes": {
+            "el": "ΠΡΑΣΙΝΑ",
+            "en": "GREEN"
+        },
+        "height": 168,
+        "weight": null,
+        "bodyType": {
+            "el": "ΕΥΣΩΜΟΣ",
+            "en": null
+        },
+        "images": "27.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε ριγέ μπεζ μπλουζάκι, παντελόνι ανοιχτό καφέ και καφέ σανδάλια. Κρατούσε μπαστούνι και ένα μικρό τσαντάκι φαρμακείου. Φορά γυαλιά μυωπίας",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    }
+]

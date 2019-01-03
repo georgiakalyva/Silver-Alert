@@ -1,0 +1,190 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{BB6EF5E1-E0BA-4682-A219-4646AEC8EC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0E5487B0-0DAD-43AA-967E-F342E3EE6710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.Services", "Web\SilverAlert.Services\SilverAlert.Services.csproj", "{72B5F6C1-7C40-4282-BD80-E3FE575EC677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7B318145-B505-4DCF-9009-DD55CBA4048D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.Web.Models", "Web\SilverAlert.Web.Models\SilverAlert.Web.Models.csproj", "{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.Shared", "SilverAlert.Shared\SilverAlert.Shared.csproj", "{3F527F23-7BBD-4EF4-8983-663B1EDB108B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{94D407FE-49E7-40B5-9A10-25871A8F44F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.WindowsPhone", "SilverAlert.WindowsPhone\SilverAlert.WindowsPhone.csproj", "{0E59AA1E-0A27-42B7-B901-B14C77F9134B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.Web", "Web\SilverAlert.Web\SilverAlert.Web.csproj", "{AC8CFDB1-B716-4712-869A-B9BA176BD53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.WindowsStore", "SilverAlert.WindowsStore\SilverAlert.WindowsStore\SilverAlert.WindowsStore.csproj", "{00A6D224-CBC4-4977-A241-202B768A493D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mnikolaidis.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SilverAlert.WindowsStore\\SilverAlert.WindowsStore\\SilverAlert.WindowsStore.csproj
+		SccProjectTopLevelParentUniqueName1 = Silver\u0020Alert.sln
+		SccProjectName1 = SilverAlert.WindowsStore/SilverAlert.WindowsStore
+		SccLocalPath1 = SilverAlert.WindowsStore\\SilverAlert.WindowsStore
+		SccProjectUniqueName2 = Web\\SilverAlert.Services\\SilverAlert.Services.csproj
+		SccProjectTopLevelParentUniqueName2 = Silver\u0020Alert.sln
+		SccProjectName2 = Web/SilverAlert.Services
+		SccLocalPath2 = Web\\SilverAlert.Services
+		SccProjectUniqueName3 = Web\\SilverAlert.Web.Models\\SilverAlert.Web.Models.csproj
+		SccProjectTopLevelParentUniqueName3 = Silver\u0020Alert.sln
+		SccProjectName3 = Web/SilverAlert.Web.Models
+		SccLocalPath3 = Web\\SilverAlert.Web.Models
+		SccProjectUniqueName4 = SilverAlert.Shared\\SilverAlert.Shared.csproj
+		SccProjectTopLevelParentUniqueName4 = Silver\u0020Alert.sln
+		SccProjectName4 = SilverAlert.Shared
+		SccLocalPath4 = SilverAlert.Shared
+		SccProjectUniqueName5 = Web\\SilverAlert.Web.Core\\SilverAlert.Web.Core.csproj
+		SccProjectTopLevelParentUniqueName5 = Silver\u0020Alert.sln
+		SccProjectName5 = Web/SilverAlert.Web.Core
+		SccLocalPath5 = Web\\SilverAlert.Web.Core
+		SccProjectUniqueName6 = TestConsole\\TestConsole.csproj
+		SccProjectTopLevelParentUniqueName6 = Silver\u0020Alert.sln
+		SccProjectName6 = TestConsole
+		SccLocalPath6 = TestConsole
+		SccProjectUniqueName7 = SilverAlert.WindowsPhone\\SilverAlert.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName7 = Silver\u0020Alert.sln
+		SccProjectName7 = SilverAlert.WindowsPhone
+		SccLocalPath7 = SilverAlert.WindowsPhone
+		SccProjectUniqueName8 = Web\\SilverAlert.Web\\SilverAlert.Web.csproj
+		SccProjectTopLevelParentUniqueName8 = Silver\u0020Alert.sln
+		SccProjectName8 = Web/SilverAlert.Web
+		SccLocalPath8 = Web\\SilverAlert.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Release|ARM.ActiveCfg = Release|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Release|x64.ActiveCfg = Release|Any CPU
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677}.Release|x86.ActiveCfg = Release|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Release|x64.ActiveCfg = Release|Any CPU
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B}.Release|x86.ActiveCfg = Release|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Release|x64.ActiveCfg = Release|Any CPU
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|ARM.Build.0 = Debug|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|x86.ActiveCfg = Debug|x86
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|x86.Build.0 = Debug|x86
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Debug|x86.Deploy.0 = Debug|x86
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|ARM.ActiveCfg = Release|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|ARM.Build.0 = Release|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|ARM.Deploy.0 = Release|ARM
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|x64.ActiveCfg = Release|Any CPU
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|x86.ActiveCfg = Release|x86
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|x86.Build.0 = Release|x86
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B}.Release|x86.Deploy.0 = Release|x86
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Release|x64.ActiveCfg = Release|Any CPU
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E}.Release|x86.ActiveCfg = Release|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|ARM.Build.0 = Debug|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x64.ActiveCfg = Debug|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x64.Build.0 = Debug|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x64.Deploy.0 = Debug|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x86.ActiveCfg = Debug|x86
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x86.Build.0 = Debug|x86
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Debug|x86.Deploy.0 = Debug|x86
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|ARM.ActiveCfg = Release|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|ARM.Build.0 = Release|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|ARM.Deploy.0 = Release|ARM
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x64.ActiveCfg = Release|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x64.Build.0 = Release|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x64.Deploy.0 = Release|x64
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x86.ActiveCfg = Release|x86
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x86.Build.0 = Release|x86
+		{00A6D224-CBC4-4977-A241-202B768A493D}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72B5F6C1-7C40-4282-BD80-E3FE575EC677} = {0E5487B0-0DAD-43AA-967E-F342E3EE6710}
+		{7FAC5EC8-7F88-43CA-886E-5ACBE9530AFF} = {0E5487B0-0DAD-43AA-967E-F342E3EE6710}
+		{3F527F23-7BBD-4EF4-8983-663B1EDB108B} = {BB6EF5E1-E0BA-4682-A219-4646AEC8EC36}
+		{092397C4-5ED6-4EDE-98E6-49F61D73BE2B} = {94D407FE-49E7-40B5-9A10-25871A8F44F8}
+		{0E59AA1E-0A27-42B7-B901-B14C77F9134B} = {BB6EF5E1-E0BA-4682-A219-4646AEC8EC36}
+		{AC8CFDB1-B716-4712-869A-B9BA176BD53E} = {0E5487B0-0DAD-43AA-967E-F342E3EE6710}
+		{00A6D224-CBC4-4977-A241-202B768A493D} = {BB6EF5E1-E0BA-4682-A219-4646AEC8EC36}
+	EndGlobalSection
+EndGlobal

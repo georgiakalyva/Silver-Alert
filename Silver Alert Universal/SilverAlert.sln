@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SilverAlert", "SilverAlert", "{19937261-A5BC-4E38-84F4-9F840EFA02F5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SilverAlert.Shared", "SilverAlert\SilverAlert.Shared\SilverAlert.Shared.shproj", "{BE5F3344-3B53-4F53-AB3F-53D9DEE1946A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.Windows", "SilverAlert\SilverAlert.Windows\SilverAlert.Windows.csproj", "{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverAlert.WindowsPhone", "SilverAlert\SilverAlert.WindowsPhone\SilverAlert.WindowsPhone.csproj", "{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SilverAlert\SilverAlert.Shared\SilverAlert.Shared.projitems*{c123bc2e-ac3d-4b16-8c2f-e4873f7d0f47}*SharedItemsImports = 4
+		SilverAlert\SilverAlert.Shared\SilverAlert.Shared.projitems*{be5f3344-3b53-4f53-ab3f-53d9dee1946a}*SharedItemsImports = 13
+		SilverAlert\SilverAlert.Shared\SilverAlert.Shared.projitems*{8a5e2dff-9fea-4de4-b1fc-ee9a49568200}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://georgiak22.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SilverAlert\\SilverAlert.Shared\\SilverAlert.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = SilverAlert.sln
+		SccProjectName1 = SilverAlert/SilverAlert.Shared
+		SccLocalPath1 = SilverAlert\\SilverAlert.Shared
+		SccProjectUniqueName2 = SilverAlert\\SilverAlert.Shared\\SilverAlert.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = SilverAlert.sln
+		SccProjectName2 = SilverAlert/SilverAlert.Shared
+		SccLocalPath2 = SilverAlert\\SilverAlert.Shared
+		SccProjectUniqueName3 = SilverAlert\\SilverAlert.Windows\\SilverAlert.Windows.csproj
+		SccProjectTopLevelParentUniqueName3 = SilverAlert.sln
+		SccProjectName3 = SilverAlert/SilverAlert.Windows
+		SccLocalPath3 = SilverAlert\\SilverAlert.Windows
+		SccProjectUniqueName4 = SilverAlert\\SilverAlert.WindowsPhone\\SilverAlert.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName4 = SilverAlert.sln
+		SccProjectName4 = SilverAlert/SilverAlert.WindowsPhone
+		SccLocalPath4 = SilverAlert\\SilverAlert.WindowsPhone
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|ARM.Build.0 = Debug|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x64.ActiveCfg = Debug|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x64.Build.0 = Debug|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x64.Deploy.0 = Debug|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x86.ActiveCfg = Debug|x86
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x86.Build.0 = Debug|x86
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Debug|x86.Deploy.0 = Debug|x86
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|ARM.ActiveCfg = Release|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|ARM.Build.0 = Release|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|ARM.Deploy.0 = Release|ARM
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x64.ActiveCfg = Release|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x64.Build.0 = Release|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x64.Deploy.0 = Release|x64
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x86.ActiveCfg = Release|x86
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x86.Build.0 = Release|x86
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47}.Release|x86.Deploy.0 = Release|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|ARM.Build.0 = Debug|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|x86.ActiveCfg = Debug|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|x86.Build.0 = Debug|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Debug|x86.Deploy.0 = Debug|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|ARM.ActiveCfg = Release|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|ARM.Build.0 = Release|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|ARM.Deploy.0 = Release|ARM
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|x86.ActiveCfg = Release|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|x86.Build.0 = Release|x86
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE5F3344-3B53-4F53-AB3F-53D9DEE1946A} = {19937261-A5BC-4E38-84F4-9F840EFA02F5}
+		{C123BC2E-AC3D-4B16-8C2F-E4873F7D0F47} = {19937261-A5BC-4E38-84F4-9F840EFA02F5}
+		{8A5E2DFF-9FEA-4DE4-B1FC-EE9A49568200} = {19937261-A5BC-4E38-84F4-9F840EFA02F5}
+	EndGlobalSection
+EndGlobal

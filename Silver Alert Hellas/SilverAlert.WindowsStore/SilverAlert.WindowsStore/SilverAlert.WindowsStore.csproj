@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00A6D224-CBC4-4977-A241-202B768A493D}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SilverAlert.WindowsStore</RootNamespace>
+    <AssemblyName>SilverAlert.WindowsStore</AssemblyName>
+    <DefaultLanguage>el-gr</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>SilverAlert.WindowsStore_StoreKey.pfx</PackageCertificateKeyFile>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PackageCertificateThumbprint>32F313D54ADC594079F5173F8876B5482377A728</PackageCertificateThumbprint>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Folder Include="Assets\scale-140\" />
+    <Folder Include="Assets\scale-180\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppStorage\FirstRun.cs" />
+    <Compile Include="AppStorage\ModificationDate.cs" />
+    <Compile Include="AppStorage\ProfileImage.cs" />
+    <Compile Include="AppStorage\SkippedItems.cs" />
+    <Compile Include="AppStorage\UniqueAppID.cs" />
+    <Compile Include="Connectivity\Connectivity.cs" />
+    <Compile Include="AppStorage\FileManagement.cs" />
+    <Compile Include="AppStorage\StorageSettings.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="DataModel\StoreAppDataModel.cs" />
+    <Compile Include="EnableLiveTile\CreateLiveTile.cs" />
+    <Compile Include="ExtendedSplash.xaml.cs">
+      <DependentUpon>ExtendedSplash.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationExtensions\BadgeContent.cs" />
+    <Compile Include="NotificationExtensions\Common.cs" />
+    <Compile Include="NotificationExtensions\ContentInterfaces.cs" />
+    <Compile Include="NotificationExtensions\TileContent.cs" />
+    <Compile Include="NotificationExtensions\ToastContent.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MissingPeoplePage.xaml.cs">
+      <DependentUpon>MissingPeoplePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Notifications\Notifications.cs" />
+    <Compile Include="Notifications\PushNotificationsHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsFlyouts\AboutUs.xaml.cs" />
+    <Compile Include="SettingsFlyouts\ContactUs.xaml.cs" />
+    <Compile Include="SettingsFlyouts\PrivacyPolicy.xaml.cs" />
+    <Compile Include="SettingsFlyouts\TermsAndConditions.xaml.cs" />
+    <Compile Include="MissingPersonsPage.xaml.cs">
+      <DependentUpon>MissingPersonsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhoWeAre.xaml.cs">
+      <DependentUpon>WhoWeAre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VariableTemplate\sampleDataItem.cs" />
+    <Compile Include="VariableTemplate\VariableTileControl.cs" />
+    <Compile Include="VariableTemplate\VariableTiles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="packages.config" />
+    <None Include="SilverAlert.WindowsStore_StoreKey.pfx" />
+    <None Include="SilverAlert.WindowsStore_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\scale-100\242.png" />
+    <Content Include="Assets\scale-100\AppLogo.png" />
+    <Content Include="Assets\scale-100\BigLiveTile1.jpg" />
+    <Content Include="Assets\scale-100\BigLiveTile2.jpg" />
+    <Content Include="Assets\scale-100\contact.png" />
+    <Content Include="Assets\scale-100\DarkGray.png" />
+    <Content Include="Assets\scale-100\footerImg.png" />
+    <Content Include="Assets\scale-100\LightGray.png" />
+    <Content Include="Assets\scale-100\Logo-2.png" />
+    <Content Include="Assets\scale-100\Logo.png" />
+    <Content Include="Assets\scale-100\Logo2.png" />
+    <Content Include="Assets\scale-100\Map-Location.png" />
+    <Content Include="Assets\scale-100\MediumGray.png" />
+    <Content Include="Assets\scale-100\nearme.png" />
+    <Content Include="Assets\scale-100\people\0.jpg" />
+    <Content Include="Assets\scale-100\people\1.jpg" />
+    <Content Include="Assets\scale-100\people\10.jpg" />
+    <Content Include="Assets\scale-100\people\11.jpg" />
+    <Content Include="Assets\scale-100\people\12.jpg" />
+    <Content Include="Assets\scale-100\people\13.jpg" />
+    <Content Include="Assets\scale-100\people\14.jpg" />
+    <Content Include="Assets\scale-100\people\15.jpg" />
+    <Content Include="Assets\scale-100\people\16.jpg" />
+    <Content Include="Assets\scale-100\people\17.jpg" />
+    <Content Include="Assets\scale-100\people\18.jpg" />
+    <Content Include="Assets\scale-100\people\19.jpg" />
+    <Content Include="Assets\scale-100\people\2.jpg" />
+    <Content Include="Assets\scale-100\people\20.jpg" />
+    <Content Include="Assets\scale-100\people\21.jpg" />
+    <Content Include="Assets\scale-100\people\22.jpg" />
+    <Content Include="Assets\scale-100\people\23.jpg" />
+    <Content Include="Assets\scale-100\people\24.jpg" />
+    <Content Include="Assets\scale-100\people\25.jpg" />
+    <Content Include="Assets\scale-100\people\26.jpg" />
+    <Content Include="Assets\scale-100\people\27.jpg" />
+    <Content Include="Assets\scale-100\people\28.jpg" />
+    <Content Include="Assets\scale-100\people\29.jpg" />
+    <Content Include="Assets\scale-100\people\3.jpg" />
+    <Content Include="Assets\scale-100\people\30.jpg" />
+    <Content Include="Assets\scale-100\people\31.jpg" />
+    <Content Include="Assets\scale-100\people\32.JPG" />
+    <Content Include="Assets\scale-100\people\33.JPG" />
+    <Content Include="Assets\scale-100\people\34.JPG" />
+    <Content Include="Assets\scale-100\people\35.JPG" />
+    <Content Include="Assets\scale-100\people\36.jpg" />
+    <Content Include="Assets\scale-100\people\37.jpg" />
+    <Content Include="Assets\scale-100\people\4.jpg" />
+    <Content Include="Assets\scale-100\people\5.jpg" />
+    <Content Include="Assets\scale-100\people\6.jpg" />
+    <Content Include="Assets\scale-100\people\7.jpg" />
+    <Content Include="Assets\scale-100\people\8.jpg" />
+    <Content Include="Assets\scale-100\people\9.jpg" />
+    <Content Include="Assets\scale-100\SmallLiveTile1.jpg" />
+    <Content Include="Assets\scale-100\SmallLiveTile2.jpg" />
+    <Content Include="Assets\scale-100\SmallLogo.png" />
+    <Content Include="Assets\scale-100\SplashScreen.png" />
+    <Content Include="Assets\scale-100\StaticContent\2401.jpg" />
+    <Content Include="Assets\scale-100\StaticContent\247.png" />
+    <Content Include="Assets\scale-100\StaticContent\Blood.png" />
+    <Content Include="Assets\scale-100\StaticContent\bloodbankpic.png" />
+    <Content Include="Assets\scale-100\StaticContent\Box.png" />
+    <Content Include="Assets\scale-100\StaticContent\Business-Man-Add-01.png" />
+    <Content Include="Assets\scale-100\StaticContent\Button.png" />
+    <Content Include="Assets\scale-100\StaticContent\dianomi.jpg" />
+    <Content Include="Assets\scale-100\StaticContent\Donate .png" />
+    <Content Include="Assets\scale-100\StaticContent\Double-Check.png" />
+    <Content Include="Assets\scale-100\StaticContent\ethelontis.png" />
+    <Content Include="Assets\scale-100\StaticContent\food.png" />
+    <Content Include="Assets\scale-100\StaticContent\giagia %281%29.jpg" />
+    <Content Include="Assets\scale-100\StaticContent\grammi.png" />
+    <Content Include="Assets\scale-100\StaticContent\Identity-Card.png" />
+    <Content Include="Assets\scale-100\StaticContent\Load-Man.png" />
+    <Content Include="Assets\scale-100\StaticContent\location.PNG" />
+    <Content Include="Assets\scale-100\StaticContent\logo_silver.png" />
+    <Content Include="Assets\scale-100\StaticContent\Old-Man.png" />
+    <Content Include="Assets\scale-100\StaticContent\papous1.jpg" />
+    <Content Include="Assets\scale-100\StaticContent\papous2.jpg" />
+    <Content Include="Assets\scale-100\StaticContent\red.JPG" />
+    <Content Include="Assets\scale-100\StaticContent\Send To.png" />
+    <Content Include="Assets\scale-100\StaticContent\Telephone.png" />
+    <Content Include="Assets\scale-100\StaticContent\TileLifeline.png" />
+    <Content Include="Assets\scale-100\StaticContent\Lost.png" />
+    <Content Include="Assets\scale-100\StaticContent\User-Group.png" />
+    <Content Include="Assets\scale-100\StaticContent\Web.png" />
+    <Content Include="Assets\scale-100\StaticContent\ypologise.png" />
+    <Content Include="Assets\scale-100\StaticContent\lifeline.jpg" />
+    <Content Include="Assets\scale-100\StoreLogo.png" />
+    <Content Include="Assets\scale-100\Template_Wall.png" />
+    <Content Include="Assets\scale-100\TileLifeline2.png" />
+    <Content Include="Assets\scale-100\Lost.png" />
+    <Content Include="Assets\scale-100\WideLogo.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Common\ReadMe.txt" />
+    <None Include="Package.StoreAssociation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ExtendedSplash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MissingPeoplePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SettingsFlyouts\AboutUs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingsFlyouts\ContactUs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingsFlyouts\PrivacyPolicy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingsFlyouts\TermsAndConditions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MissingPersonsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WhoWeAre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SilverAlert.Shared\SilverAlert.Shared.csproj">
+      <Project>{3f527f23-7bbd-4ef4-8983-663b1edb108b}</Project>
+      <Name>SilverAlert.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.2\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

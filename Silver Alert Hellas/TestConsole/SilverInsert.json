@@ -1,0 +1,1241 @@
+﻿[
+    {
+        "id": 6,
+        "category": 0,
+        "place": {
+            "id": 343,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΒΑΣΙΛΕΙΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΚΟΝΤΟΜΠΑΣΗΣ",
+            "en": ""
+        },
+        "age": 87,
+        "missingSince": "2011-09-09",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 164,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "26.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε τζιν παντελόνι, γαλάζιο πουκάμισο και μαύρα μποτάκια. Πάσχει από Γεροντική Άνοια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 7,
+        "category": 0,
+        "place": {
+            "id": null,
+            "description": {
+                "el": "Δόλους, Δυτ. Μάνη Μεσσηνίας",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΔΗΜΗΤΡΗΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΑΥΡΟΕΙΔΗΣ",
+            "en": ""
+        },
+        "age": 87,
+        "missingSince": "2012-03-21",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 160,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "17.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μπλε τζην, λαδί πουκάμισο και μαύρα παπούτσια. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 8,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Πλατεία Αττικής",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΜΑΡΙΑΝΘΗ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΠΑΝΟΛΑΣΚΟΥ",
+            "en": ""
+        },
+        "age": 66,
+        "missingSince": "2012-02-01",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 157,
+        "weight": 65,
+        "bodyType": {
+            "el": null,
+            "en": null
+        },
+        "images": "25.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι φούστα, μαύρο πουλόβερ και μπορντό παπούτσια. Διατρέχει σοβαρό κίνδυνο λόγω προβλημάτων υγείας.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 9,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Χαιδάρι",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΝΙΚΟΛΑΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΞΟΥΡΗΣ",
+            "en": ""
+        },
+        "age": 65,
+        "missingSince": "2012-04-25",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 168,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "24.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε λευκό πουλόβερ,μπλε μπουφάν, πορτοκαλί καπέλο, μπεζ παντελόνι και μαύρα παπούτσια. Διατρέχει σοβαρό κίνδυνο λόγω προβλημάτων υγείας.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 10,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Μενίδι",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΔΗΜΗΤΡΙΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΤΣΟΚΑΣ",
+            "en": ""
+        },
+        "age": 81,
+        "missingSince": "2012-04-25",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 175,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "23.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι καρό σακάκι και μαύρο παντελόνι. Διατρέχει σοβαρό κίνδυνο λόγω προβλημάτων υγείας.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 11,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Ζωγράφου",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΤΣΟΥΜΑΡΗΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+            "en": ""
+        },
+        "age": 81,
+        "missingSince": "2012-06-07",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 175,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "22.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι πουκάμισο με λευκή και μαύρη ρίγα. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+    {
+        "id": 12,
+        "category": 0,
+        "place": {
+            "id": 123,
+            "description": {
+                "el": "Κάτω Σάμικο",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΖΙΑΤΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΑΡΙΑ",
+            "en": ""
+        },
+        "age": 86,
+        "missingSince": "2012-06-22",
+        "eyes": {
+            "el": "ΓΑΛΑΝΑ",
+            "en": "BLUE"
+        },
+        "height": 160,
+        "weight": null,
+        "bodyType": {
+            "el": "KANONIKO",
+            "en": null
+        },
+        "images": "21.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε καφέ μαντήλι, γκρι ρόμπα και μαύρες παντόφλες. Πάσχει από Άνοια",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+     {
+        "id": 13,
+        "category": 0,
+        "place": {
+            "id": null,
+            "description": {
+                "el": "Διχώρι, Φωκίδα",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΑΝΑΣΤΑΣΙΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΚΟΥΡΕΜΕΝΤΖΑ",
+            "en": ""
+        },
+        "age": 82,
+        "missingSince": "2012-08-07",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 158,
+        "weight": null,
+        "bodyType": {
+            "el": "KANONIKO",
+            "en": null
+        },
+        "images": "20.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε κόκκινο φόρεμα, ψάθινο καπέλο και καφέ παπούτσια. Πάσχει από Άνοια",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+     {
+        "id": 14,
+        "category": 0,
+        "place": {
+            "id": 469,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΣΤΑΜΑΤΕΛΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΚΑΤΩΜΕΡΗ",
+            "en": ""
+        },
+        "age": 63,
+        "missingSince": "2012-08-23",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 168,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "16.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρη βερμούδα και μαύρη μπλούζα.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+      {
+        "id": 15,
+        "category": 0,
+        "place": {
+            "id": 391,
+            "description": {
+                "el": "Μεταξοχώρι",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΔΗΜΗΤΡΙΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΑΝΟΥΣΑΚΗΣ",
+            "en": ""
+        },
+        "age": 72,
+        "missingSince": "2012-08-29",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 166,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "19.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε κίτρινο πουκάμισο, τζην και μαύρες παντόφλες. Η ζωή του βρίσκεται σε κίνδυνο λόγω προβλημάτων υγείας.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+       {
+        "id": 16,
+        "category": 0,
+        "place": {
+            "id": 378,
+            "description": {
+                "el": "Ξουρίχτι",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΝΙΚΟΛΑΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΑΡΑΪΔΩΝΗΣ",
+            "en": ""
+        },
+        "age": 62,
+        "missingSince": "2012-10-12",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 175,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "18.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρο μπουφάν, λευκή μπλούζα, τζήν παντελόνι και μαύρα παπούτσια. Η ζωή του βρίσκεται σε κίνδυνο λόγω προβλημάτων υγείας.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+        {
+        "id": 17,
+        "category": 0,
+        "place": {
+            "id": 875,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΦΙΛΙΠΠΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΣΩΤΗΡΟΠΟΥΛΟΣ",
+            "en": ""
+        },
+        "age": 79,
+        "missingSince": "2013-02-18",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 170,
+        "weight": null,
+        "bodyType": {
+            "el": "KANONIKO",
+            "en": null
+        },
+        "images": "32.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε ανοιχτό γκρι πουκάμισο, γκρι παντελόνι, μαύρα παπούτσια και σκούρο ημίπαλτο. Πάσχει από Altzheimer.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    }, 
+        {
+        "id": 18,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Μεταμόρφωση",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΠΑΝΑΓΙΩΤΗΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΑΡΓΥΡΟΠΟΥΛΟΣ",
+            "en": ""
+        },
+        "age": null,
+        "missingSince": "2013-06-26",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 178,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "33.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μπλούζα χρώματος γκρι, τζην παντελόνι και καφέ παπούτσια. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+        {
+        "id": 19,
+        "category": 0,
+        "place": {
+            "id": 214,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΒΑΣΙΛΙΚΗ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΓΙΓΗ",
+            "en": ""
+        },
+        "age": 66 ,
+        "missingSince": "2013-06-09",
+        "eyes": {
+            "el": "ΜΑΥΡΑ",
+            "en": "BLACK"
+        },
+        "height": 156,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "15.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρη μπλούζα, μαύρο παντελόνι και μαύρα παπούτσια. Η ζωή της βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+         {
+        "id": 20,
+        "category": 0,
+        "place": {
+            "id": 866,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΑΓΓΕΛΙΚΗ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΛΙΟΝΤΗ",
+            "en": ""
+        },
+        "age": 78 ,
+        "missingSince": "2013-07-02",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 153,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "13.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μπλε γκρι φόρεμα και μαύρα παπούτσια. Πάσχει από άνοια",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+          {
+        "id": 21,
+        "category": 0,
+        "place": {
+            "id": 341,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΜΑΡΙΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΕΞΑΔΑΚΤΥΛΟΥ",
+            "en": ""
+        },
+        "age": 73 ,
+        "missingSince": "2013-07-09",
+        "eyes": {
+            "el": "ΓΑΛΑΝΑ",
+            "en": "BLUE"
+        },
+        "height": 165,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "12.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρο πουκάμισο, μαύρη φούστα και μαύρα παπούτσια. Η ζωή της βρίσκεται σε κίνδυνο",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+           {
+        "id": 22,
+        "category": 0,
+        "place": {
+            "id": null,
+            "description": {
+                "el": "Αμπελιώνα, Μεσσηνίας",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΑΙΚΑΤΕΡΙΝΗ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΘΩΜΟΠΟΥΛΟΥ",
+            "en": ""
+        },
+        "age": 91 ,
+        "missingSince": "2013-07-14",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 157,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "11.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρη ρόμπα, μαύρο μαντήλι, μαύρα παπούτσια και μαύρες κάλτσες. Η ζωή της βρίσκεται σε κίνδυνο",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+            {
+        "id": 23,
+        "category": 0,
+        "place": {
+            "id": 787,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΑΙΚΑΤΕΡΙΝΗ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΠΑΛΤΑ",
+            "en": ""
+        },
+        "age": 78 ,
+        "missingSince": "2013-07-22",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 150,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "9.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μπλε άσπρη ρόμπα και γκρι παπούτσια. Η ζωή της βρίσκεται σε κίνδυνο",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+             {
+        "id": 24,
+        "category": 0,
+        "place": {
+            "id": 635,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΚΑΝΕΛΛΙΩ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΠΑΣΧΑΛΙΔΟΥ",
+            "en": ""
+        },
+        "age": 80 ,
+        "missingSince": "2013-08-11",
+        "eyes": {
+            "el": "ΜΠΛΕ",
+            "en": "BLUE"
+        },
+        "height": 152,
+        "weight": null,
+        "bodyType": {
+            "el": "KANONIKO",
+            "en": null
+        },
+        "images": "10.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρο φόρεμα και μαύρες παντόφλες. Η ζωή της βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+              {
+        "id": 25,
+        "category": 0,
+        "place": {
+            "id": 558,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΚΑΣΣΙΟΣ",
+            "en": ""
+        },
+        "age": 82 ,
+        "missingSince": "2013-10-22",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 167,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΟΣ",
+            "en": null
+        },
+        "images": "8.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι παντελόνι, σκούρο μπλε πουλόβερ, γκρι σκούρο σακάκι και μαύρα παπούτσια. Πάσχει από άνοια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+               {
+        "id": 26,
+        "category": 0,
+        "place": {
+            "id": 918,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΕΛΕΥΘΕΡΙΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΩΡΑΛΗΣ",
+            "en": ""
+        },
+        "age": 78 ,
+        "missingSince": "2013-10-29",
+        "eyes": {
+            "el": "ΠΡΑΣΙΝΑ",
+            "en": "GREEN"
+        },
+        "height": 170,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "7.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι παντελόνι, σκούρο μπλε πουλόβερ, γκρι σκούρο σακάκι και μαύρα παπούτσια. Πάσχει από άνοια.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+               {
+        "id": 27,
+        "category": 0,
+        "place": {
+            "id": 785,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΝΙΚΟΛΑΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΠΑΠΑΔΑΚΟΣ",
+            "en": ""
+        },
+        "age": 82 ,
+        "missingSince": "2013-11-17",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": "BROWN"
+        },
+        "height": 175,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "34.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε θαλασσί ριγέ μαγιό βερμούδα. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                {
+        "id": 28,
+        "category": 0,
+        "place": {
+            "id": 679,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΝΙΚΟΛΑΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΠΑΠΑΔΑΚΟΣ",
+            "en": ""
+        },
+        "age": 76 ,
+        "missingSince": "2013-12-06",
+        "eyes": {
+            "el": null,
+            "en": null
+        },
+        "height": 170,
+        "weight": null,
+        "bodyType": {
+            "el": "ΕΥΣΩΜΟΣ",
+            "en": null
+        },
+        "images": "6.jpg",
+        "clothes": {
+            "el": "Έχει χάσει το δεξί του μάτι. Την ημέρα που εξαφανίστηκε φορούσε μαύρο παντελόνι, μαύρα μποτάκια, πράσινο πουκάμισο με λευκές ρίγες, μπουφάν με λευκές ρίγες. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                 {
+        "id": 29,
+        "category": 0,
+        "place": {
+            "id": 610,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΘΩΜΑΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΓΕΡΟΓΙΑΝΝΗΣ",
+            "en": ""
+        },
+        "age": 76 ,
+        "missingSince": "2013-12-15",
+        "eyes": {
+            "el": null,
+            "en": null
+        },
+        "height": 161,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "35.jpg",
+        "clothes": {
+            "el": "Έχει μία ελιά στο αριστερό αυτί. Την ημέρα που εξαφανίστηκε φορούσε μαύρη φόρμα και φούτερ, μαύρο μπουφάν, γκρι σκούρο κασκόλ, ανοιχτό γκρι σκούφο και λευκά αθλητικά παπούτσια. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                  {
+        "id": 30,
+        "category": 0,
+        "place": {
+            "id": 534,
+            "description": {
+                "el": "Ίμερα",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΧΑΡΑΛΑΜΠΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΣΙΔΗΡΟΠΟΥΛΟΣ",
+            "en": ""
+        },
+        "age": 64 ,
+        "missingSince": "2013-12-07",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": ""
+        },
+        "height": 161,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "5.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μπλε παντελόνι, μαύρη μπλούζα, μαύρες μπότες, καπέλο και μπουφάν παραλλαγής. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                   {
+        "id": 31,
+        "category": 0,
+        "place": {
+            "id": 922,
+            "description": {
+                "el": "Ποντοηράκλεια",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΣΑΜΛΙΔΗΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΙΩΑΝΝΗΣ",
+            "en": ""
+        },
+        "age": 64 ,
+        "missingSince": "2013-12-27",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": ""
+        },
+        "height": 160,
+        "weight": null,
+        "bodyType": {
+            "el": "ΕΥΣΩΜΟΣ",
+            "en": null
+        },
+        "images": "4.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε σκούρο μπλε μπουφάν, μπλε φόρμα, μαύρα παπούτσια. Κρατάει μπαστούνι. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                    {
+        "id": 32,
+        "category": 0,
+        "place": {
+            "id": 249,
+            "description": {
+                "el": "Σπαθάρι Γορτυνίας",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΠΑΝΑΓΙΩΤΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΧΑΒΕΛΕ",
+            "en": ""
+        },
+        "age": 75 ,
+        "missingSince": "2013-12-22",
+        "eyes": {
+            "el": "ΓΑΛΑΝΑ",
+            "en": ""
+        },
+        "height": 152,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "3.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε σκουρόχρωμα ρούχα και σκούρο παντελόνι. Η ζωή της βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                     {
+        "id": 33,
+        "category": 0,
+        "place": {
+            "id": 489,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΚΩΝΣΤΑΝΤΙΝΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΔΑΜΚΑΟΥΤΗΣ",
+            "en": ""
+        },
+        "age": 74 ,
+        "missingSince": "2014-02-20",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": ""
+        },
+        "height": 167,
+        "weight": null,
+        "bodyType": {
+            "el": "ΕΥΣΩΜΟΣ",
+            "en": null
+        },
+        "images": "36.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μαύρο μπουφάν, μαύρο παντελόνι, μπλε ριγέ πουκάμισο. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                      {
+        "id": 34,
+        "category": 0,
+        "place": {
+            "id": 72,
+            "description": {
+                "el": "Δρομοκαΐτειο",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΙΩΑΝΝΗΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΠΑΝΑΓΟΠΟΥΛΟΣ",
+            "en": ""
+        },
+        "age": 58 ,
+        "missingSince": "2014-03-19",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": ""
+        },
+        "height": 176,
+        "weight": null,
+        "bodyType": {
+            "el": "ΚΑΝΟΝΙΚΟ",
+            "en": null
+        },
+        "images": "0.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε γκρι ζακέτα και σκούρο μπλε παντελόνι φόρμας. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                       {
+        "id": 35,
+        "category": 0,
+        "place": {
+            "id": 541,
+            "description": {
+                "el": null,
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΑΠΟΣΤΟΛΟΣ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΜΠΟΛΙΟΣ",
+            "en": ""
+        },
+        "age": 77 ,
+        "missingSince": "2014-04-17",
+        "eyes": {
+            "el": "ΚΑΣΤΑΝΑ",
+            "en": ""
+        },
+        "height": 176,
+        "weight": null,
+        "bodyType": {
+            "el": "ΕΥΣΩΜΟΣ",
+            "en": null
+        },
+        "images": "2.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε κίτρινο αδιάβροχο, γιλέκο δερμάτινο μαύρο, καρό πουκάμισο, τζιν παντελόνι και πράσινες λαστιχιένιες μπότες. Οδηγούσε το ΚΟΑ 9129 λευκό Volkswagen Vento. Η ζωή του βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    },
+                        {
+        "id": 36,
+        "category": 0,
+        "place": {
+            "id": 875,
+            "description": {
+                "el": "ΘΕΡΙΑΝΟ",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΤΑΣΙΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΤΣΟΥΡΑΠΑ",
+            "en": ""
+        },
+        "age": 85 ,
+        "missingSince": "2014-03-29",
+        "eyes": {
+            "el": "ΠΡΑΣΙΝΑ",
+            "en": ""
+        },
+        "height": 159,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "1.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μακριά φούστα και σκούρα γυαλιά μυωπίας. Η ζωή της βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    }]

@@ -1,0 +1,40 @@
+﻿ {
+        "id": 36,
+        "category": 0,
+        "place": {
+            "id": 875,
+            "description": {
+                "el": "ΘΕΡΙΑΝΟ",
+                "en": null
+            }
+        },
+        "name": {
+            "el": "ΤΑΣΙΑ",
+            "en": ""
+        },
+        "surname": {
+            "el": "ΤΣΟΥΡΑΠΑ",
+            "en": ""
+        },
+        "age": 85 ,
+        "missingSince": "2014-03-29",
+        "eyes": {
+            "el": "ΠΡΑΣΙΝΑ",
+            "en": ""
+        },
+        "height": 159,
+        "weight": null,
+        "bodyType": {
+            "el": "ΑΔΥΝΑΤΗ",
+            "en": null
+        },
+        "images": "1.jpg",
+        "clothes": {
+            "el": "Την ημέρα που εξαφανίστηκε φορούσε μακριά φούστα και σκούρα γυαλιά μυωπίας. Η ζωή της βρίσκεται σε κίνδυνο.",
+            "en": null
+        },
+        "description": {
+            "el": null,
+            "en": null
+        }
+    }

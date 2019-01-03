@@ -1,0 +1,31 @@
+﻿using SilverAlert.WindowsStore.DataModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+
+namespace SilverAlert.WindowsStore.VariableTemplate
+{
+    public class VariableTiles : DataTemplateSelector
+    {
+      public DataTemplate BigTemplate { get; set; }
+      public DataTemplate SmallTemplate { get; set; }
+
+        protected override Windows.UI.Xaml.DataTemplate SelectTemplateCore(object item, Windows.UI.Xaml.DependencyObject container)
+        {
+            FrameworkElement element = container as FrameworkElement;
+            if (item != null && element != null)
+            {
+                if ((item as SampleDataItem).UniqueId.StartsWith("Big"))
+                    return BigTemplate;
+                if ((item as SampleDataItem).UniqueId.StartsWith("Small"))
+                    return SmallTemplate;
+
+            }
+            return base.SelectTemplateCore(item, container);
+        }
+    }
+}
